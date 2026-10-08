@@ -13,7 +13,7 @@ This project was completed as the final assignment (AOL) for **COMP6549001 – S
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 - The threat model of Shopee is based **entirely on public information** (desk research, public financial filings, OSINT, and observation of the app as a normal user). **No unauthorized access or testing was performed against Shopee's real systems.**
 - The SQL Injection attack was demonstrated **only in an isolated local lab** against **[OWASP Juice Shop](https://owasp.org/www-project-juice-shop/)**, an intentionally vulnerable application built for security training.
@@ -22,7 +22,7 @@ This project was completed as the final assignment (AOL) for **COMP6549001 – S
 
 ---
 
-## 📌 Overview
+## Overview
 
 | | |
 |---|---|
@@ -36,7 +36,7 @@ This project was completed as the final assignment (AOL) for **COMP6549001 – S
 
 ---
 
-## 🔍 Methodology
+## Methodology
 
 1. **Data gathering**: Public document study (Sea Limited filings, APJII, Compas, SimilarWeb), direct app observation, and passive OSINT (job postings, engineering blogs, BuiltWith/Wappalyzer).
 2. **Asset identification**: 12 critical assets mapped, from credential databases and payment gateway to CDN/cloud infrastructure and mobile apps.
@@ -46,7 +46,7 @@ This project was completed as the final assignment (AOL) for **COMP6549001 – S
 
 ---
 
-## 🧩 Key STRIDE Findings
+## Key STRIDE Findings
 
 | Category | Threat | Affected Component | Risk |
 |---|---|---|---|
@@ -59,7 +59,7 @@ This project was completed as the final assignment (AOL) for **COMP6549001 – S
 
 ---
 
-## 💥 Attack Demonstration: Authentication Bypass via SQL Injection
+## Attack Demonstration: Authentication Bypass via SQL Injection
 
 **Target:** OWASP Juice Shop login (`POST /rest/user/login`) · **Environment:** local lab
 
@@ -80,7 +80,7 @@ This project was completed as the final assignment (AOL) for **COMP6549001 – S
 
 ---
 
-## 🛡️ Mitigation Strategy
+## Mitigation Strategy
 
 Designed around **defense-in-depth** and a **trade-off approach**:
 
@@ -98,7 +98,7 @@ Designed around **defense-in-depth** and a **trade-off approach**:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -108,7 +108,7 @@ Designed around **defense-in-depth** and a **trade-off approach**:
 
 ---
 
-## 📚 What the Full Report Contains
+## What the Full Report Contains
 
 1. Executive summary
 2. Company profile, business flow, and tech stack
@@ -121,7 +121,7 @@ Designed around **defense-in-depth** and a **trade-off approach**:
 
 ---
 
-## 👥 Team (Group 3, Class LC07)
+## Team (Group 3, Class LC07)
 
 - Andhika Permana Sagiyono
 - Darren Gavriel Suntara
@@ -147,6 +147,6 @@ The complete reference list is available in the full report.
 
 ---
 
-## 📝 License & Usage
+## License & Usage
 
 This work is shared for educational and portfolio purposes. Shopee and all related names and trademarks belong to their respective owners; this project is **not affiliated with or endorsed by Shopee or Sea Limited**.
